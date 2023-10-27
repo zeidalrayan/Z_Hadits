@@ -23,7 +23,7 @@ function getListhadist() {
                             <h2>${h.name}</h2>
                             <p>jumlah hadits: <b>${h.available}</b></p>
                            
-                            <a class="btn btn-secondary w-100" href="/hadits/${h.id}.html">klik disini</a>
+                            <a class="btn btn-secondary w-100" href="./hadits/${h.id}.html">klik disini</a>
                         </div>`;
                 })
                 .join("");
